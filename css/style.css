@@ -1,0 +1,134 @@
+@charset "utf-8";
+body {
+    font-family: 'M PLUS Rounded 1C',serif;
+    font-size: 45px;
+    color: gray;
+    background-color: lightgoldenrodyellow;
+}
+.ffJosefin {
+    font-family: 'josefin Sans',sans-serif;
+}
+.innerWrap {
+    width: 1450px;
+    margin: 0px auto;
+    padding: 20px 20px 20px 0px;
+}
+main h2 {
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: .05em;
+    margin-bottom: 80px;
+}
+header {
+    background: url(../写真/ヘッダー.JPG) no-repeat right center/cover;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    height: 600px;
+}
+header nav a{
+    color: #ffffff;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+section {
+    width: 1500px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px 20px 60px 0px ;
+    border: 4px double lightslategrey;
+    border-radius: 30px;
+}
+.ProfileWord .layoutWrap {
+    display: flex;
+}
+.ProfileWord .layoutWrap > p {
+    flex-basis: 800px;
+    font-size: 45px;
+    padding-top: 30px;
+}
+.ProfileWord .layoutWrap > div {
+    flex-basis: 650;
+    padding-left: 100px;
+    letter-spacing: .1em;
+}
+.ProfileWord .innerWrap {
+    padding: 0px 80px;
+}
+img {
+    height: 700px;
+    width: 450px;
+    object-fit: cover;
+}
+h3 {
+    font-size: 50px;
+    color: lightslategrey;
+}
+.article ul li {
+    border: 4px double lightslategrey ;
+    width: 1400px;
+    margin: 80px 0px 0px 0px;
+    padding: 20px 0px 60px 20px;
+    list-style: none;
+    border: 4px double lightslategrey;
+    border-radius: 30px;
+}
+address {
+    font-size: 45px;
+    text-align: center; 
+    font-weight: bold;
+}
+.honSec {
+    width: 1400px;
+    margin: 80px 0px 0px 0px;
+    padding: 20px 0px 60px 60px;
+    }
+.honSec figure {
+    margin: 0px 0px;
+}
+.honSec figcaption{
+    font-size: 30px;
+}
+h5 {
+    font-size: 45px;
+}
+.introSec .layoutWrap {
+    flex-basis: 650;
+    padding-left: 100px;
+    letter-spacing: .1em;
+}
+.honSec .layoutWrap {
+    display: flex;   
+}
+.honSec .layoutWrap > div {
+    flex-basis: 900;
+    letter-spacing: .1em;
+}
+.honSec .layoutWrap > div >img {
+    margin-left: 60px;
+}
+footer {
+    background: url(../写真/ネモフィラ.jpg) no-repeat right center/cover;
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: 60px;
+    color: #ffffff;
+    height: 80px;
+}
+.baySec img {
+    width: 800px;
+}
+.foodSec img{
+    width: 800px;
+}
+.HeadArea {
+    width: 100%;
+}
+@media screen and(max-width: 640px) {
+    
+}
+html {
+    width: 1500px;
+}
